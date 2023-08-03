@@ -1,7 +1,28 @@
 body{
-    font-family: font-family: 'Lumanosimo', cursive;;
+    font-family:'Lumanosimo', 'Noto Emoji',cursive;  
+    background-color: #4949449f;  
 }
 .main{
     font-size: 200%;
     font-weight: 600;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: 500;
+    color:#000;
+}
+.btn{
+    background-color: rgba(0, 183, 255, 0.726);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.btn:hover{
+    opacity: 1;
 }
