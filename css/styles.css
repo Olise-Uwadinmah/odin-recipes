@@ -3,6 +3,7 @@ body{
     background-color: #4949449f;  
 }
 .main{
+    margin-top: 150px;
     font-size: 200%;
     font-weight: 600;
     text-align: center;
