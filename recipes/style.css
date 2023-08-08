@@ -11,7 +11,7 @@ body{
 }
 .tanker{
     text-align: center;
-    margin: 30px 0px;
+    margin: 40px 0px;
 }
 .container{
     background-color: #000;
@@ -26,13 +26,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
-    padding: 10px;
+    margin:20px 20px;
     width: 100%;
 }
-.img{
-    width: 700px;
-}
+
 .main h1{
     font-size: 170%;
     padding: 20px;
@@ -42,7 +39,7 @@ body{
     color: #000;
     border-radius: 50px;
     padding: 60px 10px;
-    height: 450px;
+    height: 400px;
     line-height: 30px;
 
 }
@@ -51,10 +48,58 @@ body{
     margin-bottom: 40px;  
 }
 .description p{
-    font-size: 50%;
+    font-size: 55%;
     font-weight: 600;
 }
-
+.description:hover{
+    background-color: #e4360aea;
+    color: #e9ccc5;
+    transition: 1.0s ease-in;
+}
+.wrap{
+    width: 600px;
+    border-radius: 30px;
+    object-fit: contain;
+    
+}
+.wrap a{
+    cursor:default;
+}
+hr{
+    width: 70%;
+    border: dotted white 10px;
+    border-top: none;
+    margin: 0px auto;
+}
+.border1{
+    border: #fff solid 5px ;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 70px;
+}
+.border2{
+    border: #e4360aea solid 5px ;
+    padding: 5px;
+    border-radius: 5px;
+}
+.border3{
+    border: #fff solid 5px ;
+    padding: 10px;
+    border-radius: 2px;
+}
+.content h2{
+    text-decoration: underline;
+}
+.content ul{
+    text-align:left ;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.content ul li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
 
 
 
