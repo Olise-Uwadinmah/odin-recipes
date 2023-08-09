@@ -67,9 +67,10 @@ body{
 }
 hr{
     width: 70%;
-    border: dotted white 10px;
+    border: dotted #fff 10px;
     border-top: none;
     margin: 0px auto;
+    
 }
 .border1{
     border: #fff solid 5px ;
@@ -100,8 +101,51 @@ hr{
     list-style-type: circle;
     list-style-position: inside;
 }
+.contents ol{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.contents ol li{
+    list-style-type:decimal-leading-zero;
+    list-style-position: inside;
+    padding: 20px 30px;
+}
+.contents h2{
+    padding: 20px;
+    text-decoration: underline;
+}
 
+.logo {
+    border-radius: 50%;
+    width: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+}
+.add{
+    display: flex;
+    font-size: 70%;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+.time{
+    background-color: #e4360aea;
+    padding: 15px;
+    border-radius: 30px;
+    color: #e9ccc5;
+}
 
+.servings{
+    background-color: #e4360aea;
+    padding: 15px;
+    border-radius: 30px;
+    color: #e9ccc5;
+}
+.description:hover .add .try{
+    background-color: #e9ccc5;
+    color: #e4360aea;
+}
 
 
 
