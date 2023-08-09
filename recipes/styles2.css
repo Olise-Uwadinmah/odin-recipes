@@ -1,0 +1,8 @@
+.wrap{
+    height: 500px;
+    object-fit: contain;
+    border-radius: 30px;
+}
+.add {
+    font-size: 60%;
+}
