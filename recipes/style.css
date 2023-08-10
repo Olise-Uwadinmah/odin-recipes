@@ -164,4 +164,16 @@ hr{
     .img{
         max-width: 400px;
     }
+    .add{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .try{
+        margin: 10px;
+    }
+    .content ul{
+        margin-left: 0px;
+        margin: 10px;
+    }
 }
