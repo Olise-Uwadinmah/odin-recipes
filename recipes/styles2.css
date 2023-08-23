@@ -1,8 +1,18 @@
-.wrap{
-    height: 500px;
-    object-fit: contain;
-    border-radius: 30px;
-}
-.add {
-    font-size: 60%;
+@media  screen and (max-width:800px) {
+    .wrap{
+        height: 400px;
+        object-fit: contain;
+        border-radius: 30px;
+    }
+    .add {
+        font-size: 40%;
+        margin-bottom: 0px;
+    }
+    .description p{
+        font-size: 45%;
+    }
+    .description h1{
+        font-size: 120%;
+        margin-bottom: 0px;
+    }
 }

@@ -1,6 +1,7 @@
 body{
     font-family:'Lumanosimo', 'Noto Emoji',cursive;  
     background-color: #ffffffc9;  
+    
 }
 .main{
     margin-top: 50px;
@@ -19,7 +20,7 @@ a{
     color:#000;
 }
 .btn{
-    background-color: rgba(211, 145, 24, 0.726);
+    background-color: rgb(211, 24, 24);
     width: 200px;
     padding: 20px;
     text-align: center;
@@ -34,4 +35,10 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+@media  screen and (max-width:500px) {
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
 }
